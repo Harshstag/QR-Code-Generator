@@ -10,7 +10,7 @@ qr = qrcode.QRCode(
 )
 
 st.title("QR Code Generator")
-# st.write("Create your QR Code for free")
+st.write("Create your QR Code for free")
 st.caption("BY HARSHSTAG")
 
 title = st.text_input('Enter URL', 'https://github.com/Harshstag')
